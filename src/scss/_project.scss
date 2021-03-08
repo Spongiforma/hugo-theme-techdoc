@@ -2,7 +2,7 @@
 @use 'sass:map';
 
 // Custom Modules
-@use '../../node_modules/flexbox-grid-mixins/sass/flexbox-grid-mixins';
+@use '../../node_modules/flexbox-grid-mixins/dart-sass/flexbox-grid-mixins';
 
 // Included Modules
 @use 'variable';
@@ -130,9 +130,10 @@ main {
 
 .sidebar {
 	font-size: 90%;
-	line-height: 1.8;
+	//line-height: 1.8;
 	background: variable.$sidebar-background-color;
-	border-right: 1px solid variable.$sidebar-active-color;
+	//border-right: 1px solid variable.$sidebar-active-color;
+	//box-shadow: 4px 4px 4px 4px variable.$default-background-secondary-color;
 
 	ul {
 		list-style: none;
@@ -143,14 +144,14 @@ main {
 	a {
 		position: relative;
 		display: block;
-		color: #404040;
+		color: variable.$default-font-color;
 		text-decoration: none;
 		padding: .2rem 1rem;
 		border-left: solid 4px variable.$sidebar-background-color;
 		border-bottom: solid 1px variable.$sidebar-active-color;
 
 		&:hover {
-			color: #404040;
+			color: variable.$default-font-color;
 			background: variable.$sidebar-hover-color;
 			border-left: solid 4px #ccc;
 		}
@@ -198,8 +199,8 @@ main {
 			line-height: 2;
 			text-align: center;
 			color: #979797;
-			background: #f2f2f2;
-			border-left: 1px solid #e7e7e7;
+			background: variable.$sidebar-background-color;
+			//border-left: 1px solid #e7e7e7;
 		}
 	}
 }

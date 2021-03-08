@@ -1,8 +1,6 @@
-baseURL = "https://example.com"
-
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Hugo Techdoc Theme"
+title = "Notes"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -15,13 +13,13 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    version = "0.9.6"
+    description = ""
+    github_repository = "https://github.com/spongiforma/hugo-theme-techdoc"
+    version = "0.9.7"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_doc_repository = "https://github.com/spongiforma/hugo-theme-techdoc"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id
@@ -38,12 +36,12 @@ enableMissingTranslationPlaceholders = false
     # Theme settings section
     # Theme color
     # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
-    custom_font_color = ""
-    custom_background_color = ""
+    custom_font_color = "#bcb7ae"
+    custom_background_color = "#1a1c1d"
 
     # Documentation Menu section
     # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+    menu_style = "slide-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
 
     # Date format
     dateformat = "" # default "2 Jan 2006"

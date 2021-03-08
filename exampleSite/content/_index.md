@@ -17,14 +17,14 @@ images:
 
 * Modern, Simple layout
 * Responsive web design
-* Documentation menu (Select [Menu style](getting-started/screenshot/#menu-style))
-* [Table Of Contents](sample/table-of-contents/) for the page (selective)
-* [Theme color](getting-started/screenshot/#theme-color)
-* [Edit link](getting-started/screenshot/#edit-link) to documentation repository
-* [Custom Shortcodes](sample/custom-shortcodes/)
+* Documentation menu (Select [Menu style](archives/getting-started/screenshot/#menu-style))
+* [Table Of Contents](archives/sample/table-of-contents/) for the page (selective)
+* [Theme color](archives/getting-started/screenshot/#theme-color)
+* [Edit link](archives/getting-started/screenshot/#edit-link) to documentation repository
+* [Custom Shortcodes](archives/sample/custom-shortcodes/)
   * Code highlight with clipboard
   * Alert panel
   * Button
-* [Search Shortcode](sample/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
+* [Search Shortcode](archives/sample/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
 * Open Graph
 * Analytics with Google Analytics, Google Tag Manager

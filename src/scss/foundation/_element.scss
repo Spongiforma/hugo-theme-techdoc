@@ -105,12 +105,12 @@ td {
 	border-top: 1px solid variable.$default-border-color;
 	border-right: 1px solid variable.$default-border-color;
 	tr:nth-child(even) & {
-		background: #f8f8f8;
+		background: variable.$default-background-secondary-color;
 	}
 	padding: .6rem;
 }
 th {
-	background: #eee;
+	background: variable.$default-background-color;
 	font-weight: bold;
 	text-align: left;
 }
@@ -144,7 +144,7 @@ dd {
 blockquote {
 	color: #999;
 	padding: variable.$default-layout-padding;
-	background-color: #f4f4f4;
+	background-color: variable.$default-background-color;
 	border-left: 4px solid variable.$default-border-color;
 	border-radius: .2rem;
 }
@@ -161,7 +161,7 @@ kbd {
 	border-radius: .2rem;
 }
 code {
-	background-color: #f4f4f4;
+	background-color: variable.$default-background-secondary-color;
 }
 kbd {
 	color: #fff;
@@ -169,7 +169,7 @@ kbd {
 }
 
 pre {
-	background-color: #f4f4f4;
+	background-color: variable.$default-background-secondary-color;
 	padding: variable.$default-layout-padding;
 	overflow: auto;
 	white-space: pre-wrap;
