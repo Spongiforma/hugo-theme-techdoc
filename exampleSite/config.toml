@@ -2,7 +2,9 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Notes"
 theme = "hugo-theme-techdoc"
+baseURL = "/"
 
+relativeURLs = true
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
