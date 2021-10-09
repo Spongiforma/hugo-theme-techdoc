@@ -1,0 +1,8 @@
+{{ if ne .Site.Params.menu_style "" }}
+<div class="outline">
+{{- partial "menu/outline-list.html" . -}}
+<div class="sidebar-footer">
+{{- partial "sidebar-footer.html" . -}}
+</div>
+</div>
+{{ end }}
