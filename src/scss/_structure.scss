@@ -43,7 +43,7 @@ main {
 	overflow-y: scroll;
 }
 .outline {
-	padding-top: 5rem;
+	padding-top: 1rem;
 	top: 0;
 	@include flexbox-grid-mixins.grid-col($col: 2,$order: 1);
 	//overflow-x: hidden;
