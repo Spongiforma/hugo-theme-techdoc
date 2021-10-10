@@ -58,7 +58,7 @@ main {
 	main {
 		@include flexbox-grid-mixins.grid-col($col: none, $flex-shrink: 0, $min-width: 100%);
 	}
-	.sidebar {
+	.sidebar,.outline {
 		@include flexbox-grid-mixins.grid-col($col: none, $order: 1);
 	}
 }

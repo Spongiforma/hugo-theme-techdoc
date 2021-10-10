@@ -783,7 +783,7 @@ main:only-child {
 }
 
 .outline {
-  padding-top: 5rem;
+  padding-top: 1rem;
   top: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -817,7 +817,7 @@ main:only-child {
     min-width: 100%;
   }
 
-  .sidebar {
+  .sidebar, .outline {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-box-flex: 0;
