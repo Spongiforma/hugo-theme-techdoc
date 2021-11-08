@@ -226,7 +226,7 @@ main {
 		text-decoration: none;
 		padding: .2rem 1rem;
 		border-left: solid 4px variable.$sidebar-background-color;
-		border-bottom: solid 1px variable.$sidebar-active-color;
+		//border-bottom: solid 1px variable.$sidebar-active-color;
 
 		&:hover {
 			color: variable.$default-font-color;

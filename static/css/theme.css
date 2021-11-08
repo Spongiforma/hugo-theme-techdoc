@@ -1346,7 +1346,6 @@ main {
   text-decoration: none;
   padding: 0.2rem 1rem;
   border-left: solid 4px #1f2123;
-  border-bottom: solid 1px #3c3e48;
 }
 .outline a:hover {
   color: #bcb7ae;
