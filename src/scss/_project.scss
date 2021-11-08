@@ -224,7 +224,7 @@ main {
 		display: block;
 		color: variable.$default-font-color;
 		text-decoration: none;
-		padding: .2rem 1rem;
+		padding: .01rem;
 		border-left: solid 4px variable.$sidebar-background-color;
 		//border-bottom: solid 1px variable.$sidebar-active-color;
 
@@ -237,25 +237,26 @@ main {
 
 	nav > ul > li li a {
 		list-style: none;
-		padding-left: 1rem + 1rem * 0;
+		padding-left: 1rem + 1.5rem * 0;
 	}
 	nav > ul ul > li li a {
-		padding-left: 1rem + 1rem * 1;
+		padding-left: 1rem + 1.5rem * 1;
 	}
 	nav > ul ul ul > li li a {
-		padding-left: 1rem + 1rem * 2;
+		padding-left: 1rem + 1.5rem * 2;
 	}
 	nav > ul ul ul ul > li li a {
-		padding-left: 1rem + 1rem * 3;
+		padding-left: 1rem + 1.5rem * 3;
 	}
 	nav > ul ul ul ul ul > li li a {
-		padding-left: 1rem + 1rem * 4;
+		padding-left: 1rem + 1.5rem * 4;
 	}
 
 	@media screen and (max-width: #{map.get(variable.$default-breakpoints, xs )} ) {
-		nav > ul > li:first-child a {
-			border-top: solid 1px variable.$sidebar-active-color;
-		}
+		display: none;
+		//nav > ul > li:first-child a {
+		//	border-top: solid 1px variable.$sidebar-active-color;
+		//}
 	}
 
 	.active > a {
